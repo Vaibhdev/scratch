@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import StreamingResponse
 from sqlalchemy.orm import Session
-from .. import models, database, auth
-from ..services import export
+import models, database, auth
+from services import export
 
 router = APIRouter(
     prefix="/export",

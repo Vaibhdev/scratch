@@ -1,8 +1,8 @@
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from .. import models, schemas, database, auth
-from ..services import llm
+import models, schemas, database, auth
+from services import llm
 
 router = APIRouter(
     prefix="/documents",

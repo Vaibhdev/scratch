@@ -2,7 +2,7 @@ import io
 from docx import Document
 from pptx import Presentation
 from pptx.util import Inches, Pt
-from .. import models
+import models
 
 def create_docx(document_data: models.Document):
     doc = Document()
