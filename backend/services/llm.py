@@ -12,7 +12,7 @@ def generate_content(prompt: str, context: str = "") -> str:
     if not API_KEY:
         return "Error: GEMINI_API_KEY not found."
     
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     
     full_prompt = f"Context: {context}\n\nTask: {prompt}\n\nGenerate the content:"
     
@@ -26,7 +26,7 @@ def generate_outline(topic: str, doc_type: str) -> list:
     if not API_KEY:
         return ["Error: GEMINI_API_KEY not found."]
         
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     
     if doc_type == "docx":
         prompt = f"Generate a structured outline for a business document about '{topic}'. Return only a list of section headers, one per line."

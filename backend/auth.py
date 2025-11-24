@@ -5,10 +5,18 @@ from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordBearer
 from fastapi import Depends, HTTPException, status
 from sqlalchemy.orm import Session
+import os
+from dotenv import load_dotenv
 import models, database
 
-# SECRET_KEY should be in .env, using a default for now
-SECRET_KEY = "supersecretkey"
+# Load environment variables
+load_dotenv()
+
+# Get SECRET_KEY from environment
+SECRET_KEY = os.getenv("SECRET_KEY")
+if not SECRET_KEY:
+    raise ValueError("SECRET_KEY not found in environment variables. Please add it to your .env file.")
+
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
