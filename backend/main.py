@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .database import engine, Base
 
-from .routers import auth, projects
+from .routers import auth, projects, documents, export
 
 # Create tables
 Base.metadata.create_all(bind=engine)
@@ -11,6 +11,8 @@ app = FastAPI(title="Generation Platform API")
 
 app.include_router(auth.router)
 app.include_router(projects.router)
+app.include_router(documents.router)
+app.include_router(export.router)
 
 # CORS
 app.add_middleware(
