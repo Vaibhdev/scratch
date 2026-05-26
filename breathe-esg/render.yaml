@@ -1,0 +1,40 @@
+services:
+  # Django Backend
+  - type: web
+    name: breathe-esg-backend
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn breathe_esg.wsgi --log-file -"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: DATABASE_URL
+        fromDatabase:
+          name: breathe-esg-db
+          property: connectionString
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        value: "breathe-esg-backend.onrender.com"
+      - key: CORS_ALLOWED_ORIGINS
+        value: "https://breathe-esg.onrender.com"
+      - key: DEBUG
+        value: "False"
+
+  # React Frontend (Static Site)
+  - type: web
+    name: breathe-esg-frontend
+    env: static
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "./dist"
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+    # Note: On Render static sites, API proxies must be handled via redirects/rewrites
+    # We would configure a rewrite rule mapping /api/* to the backend URL
+
+databases:
+  - name: breathe-esg-db
+    databaseName: breathe_esg
+    user: breathe_user
+    plan: free

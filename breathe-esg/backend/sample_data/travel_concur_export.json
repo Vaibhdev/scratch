@@ -1,0 +1,269 @@
+[
+  {
+    "reportId": "RPT-2024-Q1-0042",
+    "reportDate": "2024-03-25",
+    "employeeName": "Rahul Sharma",
+    "departmentCode": "SALES-IN",
+    "businessPurpose": "Client visit - Tata Steel, Jamshedpur",
+    "expenses": [
+      {
+        "expenseId": "EXP-042-A",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-03-10",
+        "vendor": {"name": "IndiGo Airlines", "description": "6E-2145"},
+        "origin": "BOM",
+        "destination": "CCU",
+        "transactionAmount": {"value": 8500.00, "currencyCode": "INR"},
+        "location": {"city": "Mumbai", "countryCode": "IN"},
+        "travelClass": "Economy"
+      },
+      {
+        "expenseId": "EXP-042-B",
+        "expenseType": {"id": "HOTEL", "name": "Hotel", "code": "HOTEL"},
+        "transactionDate": "2024-03-10",
+        "vendor": {"name": "Taj Residency Jamshedpur"},
+        "nights": 2,
+        "transactionAmount": {"value": 12400.00, "currencyCode": "INR"},
+        "location": {"city": "Jamshedpur", "countryCode": "IN"}
+      },
+      {
+        "expenseId": "EXP-042-C",
+        "expenseType": {"id": "TAXIX", "name": "Taxi", "code": "TAXIX"},
+        "transactionDate": "2024-03-10",
+        "vendor": {"name": "Ola Cabs"},
+        "transactionAmount": {"value": 1850.00, "currencyCode": "INR"},
+        "location": {"city": "Kolkata", "countryCode": "IN"}
+      },
+      {
+        "expenseId": "EXP-042-D",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-03-12",
+        "vendor": {"name": "IndiGo Airlines", "description": "6E-2146"},
+        "origin": "CCU",
+        "destination": "BOM",
+        "transactionAmount": {"value": 9200.00, "currencyCode": "INR"},
+        "location": {"city": "Kolkata", "countryCode": "IN"},
+        "travelClass": "Economy"
+      }
+    ]
+  },
+  {
+    "reportId": "RPT-2024-Q1-0055",
+    "reportDate": "2024-04-02",
+    "employeeName": "Priya Deshmukh",
+    "departmentCode": "ENG-IN",
+    "businessPurpose": "Offshore team sync - Singapore office",
+    "expenses": [
+      {
+        "expenseId": "EXP-055-A",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-03-18",
+        "vendor": {"name": "Singapore Airlines", "description": "SQ-423"},
+        "origin": "BOM",
+        "destination": "SIN",
+        "transactionAmount": {"value": 42000.00, "currencyCode": "INR"},
+        "location": {"city": "Mumbai", "countryCode": "IN"},
+        "travelClass": "Economy"
+      },
+      {
+        "expenseId": "EXP-055-B",
+        "expenseType": {"id": "HOTEL", "name": "Hotel", "code": "HOTEL"},
+        "transactionDate": "2024-03-18",
+        "vendor": {"name": "Holiday Inn Singapore"},
+        "nights": 4,
+        "transactionAmount": {"value": 68000.00, "currencyCode": "INR"},
+        "location": {"city": "Singapore", "countryCode": "SG"}
+      },
+      {
+        "expenseId": "EXP-055-C",
+        "expenseType": {"id": "TAXIX", "name": "Taxi", "code": "TAXIX"},
+        "transactionDate": "2024-03-18",
+        "vendor": {"name": "Grab"},
+        "transactionAmount": {"value": 2200.00, "currencyCode": "INR"},
+        "location": {"city": "Singapore", "countryCode": "SG"}
+      },
+      {
+        "expenseId": "EXP-055-D",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-03-22",
+        "vendor": {"name": "Singapore Airlines", "description": "SQ-424"},
+        "origin": "SIN",
+        "destination": "BOM",
+        "transactionAmount": {"value": 44500.00, "currencyCode": "INR"},
+        "location": {"city": "Singapore", "countryCode": "SG"},
+        "travelClass": "Economy"
+      }
+    ]
+  },
+  {
+    "reportId": "RPT-2024-Q1-0061",
+    "reportDate": "2024-04-10",
+    "employeeName": "Amit Patel",
+    "departmentCode": "SALES-IN",
+    "businessPurpose": "Partner meeting - Bangalore",
+    "expenses": [
+      {
+        "expenseId": "EXP-061-A",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-04-05",
+        "vendor": {"name": "Air India", "description": "AI-680"},
+        "origin": "DEL",
+        "destination": "BLR",
+        "transactionAmount": {"value": 7200.00, "currencyCode": "INR"},
+        "location": {"city": "Delhi", "countryCode": "IN"},
+        "travelClass": "Economy"
+      },
+      {
+        "expenseId": "EXP-061-B",
+        "expenseType": {"id": "HOTEL", "name": "Hotel", "code": "HOTEL"},
+        "transactionDate": "2024-04-05",
+        "vendor": {"name": "Lemon Tree Premier"},
+        "nights": 1,
+        "transactionAmount": {"value": 5800.00, "currencyCode": "INR"},
+        "location": {"city": "Bangalore", "countryCode": "IN"}
+      },
+      {
+        "expenseId": "EXP-061-C",
+        "expenseType": {"id": "TAXIX", "name": "Taxi", "code": "TAXIX"},
+        "transactionDate": "2024-04-05",
+        "vendor": {"name": "Uber India"},
+        "transactionAmount": {"value": 950.00, "currencyCode": "INR"},
+        "location": {"city": "Bangalore", "countryCode": "IN"}
+      },
+      {
+        "expenseId": "EXP-061-D",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-04-06",
+        "vendor": {"name": "Air India", "description": "AI-681"},
+        "origin": "BLR",
+        "destination": "DEL",
+        "transactionAmount": {"value": 7800.00, "currencyCode": "INR"},
+        "location": {"city": "Bangalore", "countryCode": "IN"},
+        "travelClass": "Economy"
+      }
+    ]
+  },
+  {
+    "reportId": "RPT-2024-Q2-0078",
+    "reportDate": "2024-05-15",
+    "employeeName": "Sneha Iyer",
+    "departmentCode": "CONSULT-IN",
+    "businessPurpose": "Client audit - Dubai office",
+    "expenses": [
+      {
+        "expenseId": "EXP-078-A",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-05-01",
+        "vendor": {"name": "Emirates", "description": "EK-505"},
+        "origin": "BOM",
+        "destination": "DXB",
+        "transactionAmount": {"value": 28000.00, "currencyCode": "INR"},
+        "location": {"city": "Mumbai", "countryCode": "IN"},
+        "travelClass": "Business"
+      },
+      {
+        "expenseId": "EXP-078-B",
+        "expenseType": {"id": "HOTEL", "name": "Hotel", "code": "HOTEL"},
+        "transactionDate": "2024-05-01",
+        "vendor": {"name": "Rove Downtown Dubai"},
+        "nights": 3,
+        "transactionAmount": {"value": 45000.00, "currencyCode": "INR"},
+        "location": {"city": "Dubai", "countryCode": "AE"}
+      },
+      {
+        "expenseId": "EXP-078-C",
+        "expenseType": {"id": "CARRT", "name": "Car Rental", "code": "CARRT"},
+        "transactionDate": "2024-05-01",
+        "vendor": {"name": "Hertz UAE"},
+        "transactionAmount": {"value": 15000.00, "currencyCode": "INR"},
+        "distance_km": 285,
+        "location": {"city": "Dubai", "countryCode": "AE"}
+      },
+      {
+        "expenseId": "EXP-078-D",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-05-04",
+        "vendor": {"name": "Emirates", "description": "EK-506"},
+        "origin": "DXB",
+        "destination": "BOM",
+        "transactionAmount": {"value": 26500.00, "currencyCode": "INR"},
+        "location": {"city": "Dubai", "countryCode": "AE"},
+        "travelClass": "Business"
+      }
+    ]
+  },
+  {
+    "reportId": "RPT-2024-Q2-0089",
+    "reportDate": "2024-05-28",
+    "employeeName": "Vikram Singh",
+    "departmentCode": "OPS-IN",
+    "businessPurpose": "Factory inspection - Chennai plant",
+    "expenses": [
+      {
+        "expenseId": "EXP-089-A",
+        "expenseType": {"id": "TRAIN", "name": "Train", "code": "TRAIN"},
+        "transactionDate": "2024-05-20",
+        "vendor": {"name": "IRCTC", "description": "Shatabdi Express 12007"},
+        "transactionAmount": {"value": 2150.00, "currencyCode": "INR"},
+        "location": {"city": "Chennai", "countryCode": "IN"}
+      },
+      {
+        "expenseId": "EXP-089-B",
+        "expenseType": {"id": "TAXIX", "name": "Taxi", "code": "TAXIX"},
+        "transactionDate": "2024-05-20",
+        "vendor": {"name": "Ola Cabs"},
+        "transactionAmount": {"value": 780.00, "currencyCode": "INR"},
+        "location": {"city": "Chennai", "countryCode": "IN"}
+      },
+      {
+        "expenseId": "EXP-089-C",
+        "expenseType": {"id": "HOTEL", "name": "Hotel", "code": "HOTEL"},
+        "transactionDate": "2024-05-20",
+        "vendor": {"name": "GRT Grand Chennai"},
+        "nights": 1,
+        "transactionAmount": {"value": 6500.00, "currencyCode": "INR"},
+        "location": {"city": "Chennai", "countryCode": "IN"}
+      }
+    ]
+  },
+  {
+    "reportId": "RPT-2024-Q2-0095",
+    "reportDate": "2024-06-10",
+    "employeeName": "Rahul Sharma",
+    "departmentCode": "SALES-IN",
+    "businessPurpose": "Annual conference - London",
+    "expenses": [
+      {
+        "expenseId": "EXP-095-A",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-06-01",
+        "vendor": {"name": "British Airways", "description": "BA-138"},
+        "origin": "BOM",
+        "destination": "LHR",
+        "transactionAmount": {"value": 85000.00, "currencyCode": "INR"},
+        "location": {"city": "Mumbai", "countryCode": "IN"},
+        "travelClass": "Economy"
+      },
+      {
+        "expenseId": "EXP-095-B",
+        "expenseType": {"id": "HOTEL", "name": "Hotel", "code": "HOTEL"},
+        "transactionDate": "2024-06-01",
+        "vendor": {"name": "Premier Inn London"},
+        "nights": 5,
+        "transactionAmount": {"value": 92000.00, "currencyCode": "INR"},
+        "location": {"city": "London", "countryCode": "GB"}
+      },
+      {
+        "expenseId": "EXP-095-C",
+        "expenseType": {"id": "AIRFR", "name": "Airfare", "code": "AIRFR"},
+        "transactionDate": "2024-06-06",
+        "vendor": {"name": "British Airways", "description": "BA-139"},
+        "origin": "LHR",
+        "destination": "BOM",
+        "transactionAmount": {"value": 82000.00, "currencyCode": "INR"},
+        "location": {"city": "London", "countryCode": "GB"},
+        "travelClass": "Economy"
+      }
+    ]
+  }
+]
